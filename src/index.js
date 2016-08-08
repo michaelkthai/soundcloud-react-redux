@@ -4,10 +4,10 @@ import Stream from './components/Stream';
 
 const tracks = [
   {
-    title: 'Some track'
+    title: 'Carry On, My Wayward Son'
   },
   {
-    title: 'Some other track'
+    title: 'Bloody Well Right'
   }
 ];
 
