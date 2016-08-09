@@ -10,15 +10,6 @@ import App from './components/App';
 import Callback from './components/Callback';
 import Stream from './components/Stream';
 
-const tracks = [
-  {
-    title: 'Carry On, My Wayward Son'
-  },
-  {
-    title: 'Bloody Well Right'
-  }
-];
-
 const store = configureStore();
 store.dispatch(actions.setTracks(tracks));
 
