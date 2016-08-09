@@ -33,7 +33,6 @@ ReactDOM.render(
         <Route path="/callback" component={Callback} />
       </Route>
     </Router>
-    <Stream />
   </Provider>,
   document.getElementById('app')
 );
