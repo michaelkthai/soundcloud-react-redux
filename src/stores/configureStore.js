@@ -9,7 +9,7 @@ const logger = createLogger();
 const router = routerMiddleware(browserHistory);
 
 
-const createStoreWithMiddleware = applyMiddleware(router, logger)(createStore);
+const createStoreWithMiddleware = applyMiddleware(thunk, router, logger)(createStore);
 
 export default function configureStore(initialState) {
   return createStoreWithMiddleware(rootReducer, initialState);
